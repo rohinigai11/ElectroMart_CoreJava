@@ -9,9 +9,9 @@ public class ElectroMart {
 
     
 //    private static final String DB_NAME = "electromart";
+    private static final String URL = "jdbc:postgresql://localhost:5432/electromart";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "123";
-    private static final String URL = "jdbc:postgresql://localhost:5432/electromart"; 
+    private static final String PASSWORD = "123"; 
     static Scanner scanner = new Scanner(System.in);
 
     
