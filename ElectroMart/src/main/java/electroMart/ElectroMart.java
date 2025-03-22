@@ -135,7 +135,7 @@ public class ElectroMart {
              ResultSet rs = stmt.executeQuery(query)) {
              System.out.println("List of Tables in Database:");
              while (rs.next()) {
-                System.out.println("- " + rs.getString("tablename"));  // Fetch table name column
+                System.out.println("* " + rs.getString("tablename"));  // Fetch table name column
              }
 
         } catch (SQLException e) {
